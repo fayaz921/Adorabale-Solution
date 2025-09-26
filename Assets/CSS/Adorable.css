@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+.Container{
+    width: 100%;
+    background-color: white;
+}
+.row{
+    display: flex;
+    transform: translateY(10px);
+}
+ 
+.logo{
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.navbar{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar li{
+  float: left;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 18px;
+    display: inline-block;
+    color: black;
+  
+}
+.navbar a:hover{
+    color: orangered;
+}
+
+.callnow{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.callnow a{
+    text-decoration: none;
+    padding: 16px 50px;
+    color: white;
+    background-color: #f07700;
+    border-radius: 10px 10px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+.callnow a:hover{
+    background-color: black;
+}
+
+/* Home/index */
+/* Hero Section start */
+
+.Herosection{
+    width: 100%;
+    background-color: #f0770f;
+}
+.Sections{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.Headingsection{
+    width: 50%;
+}
+.Headingsection h1{
+     font-size: 66px;
+    color: white;
+    /* padding-bottom: 80px; */
+}
+.Headingsection h4{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Headingsection hr{
+    width: 20%;
+    margin-left: 10%;
+    
+}
+.Imagesection{
+    width: 50%;
+}
+
+.Imagesection .image1{  
+    left: 140px;
+    position: relative;
+    /* bottom: 10px;   */
+}
+
+.Imagesection .image1 img{
+    width: 380px;
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.Imagesection .image2{
+    
+    right: 110px;
+    top: 180px;
+    position: absolute;  
+}
+
+.Imagesection .image2 img{
+    width: 200px;
+    border: 10px solid;
+    border-radius: 16px;
+    border-color: white;
+}
+
+/* Hero section end */
+
+/* About section start */
+
+.AboutSection{
+    background-color: #fff;
+    padding-top: 190px;
+}
+.Acontainer{
+    width: 90%;
+    margin: auto;
+}
+.Arow{
+    display: flex;
+}
+
+.Aimagessection{
+    width: 50%;
+}
+.aimage1{
+    position: relative;
+    top: 10px;
+    
+}
+.aimage1 img{
+    width: 480px;
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: white;
+}
+.aimage2{
+    position: absolute;
+    bottom: 11px;
+    right: 60px;
+}
+.aimage2 img{
+    width: 230px;
+    border: 10px solid;
+    border-radius: 16px;
+    border-color: white;
+}
+
+.Atextsection{
+    width: 50%;
+    padding-right: 10px;
+}
+.Atextsection h1{
+    color: #F07700;
+    line-height: 1.4em;
+    font-size: 40px;
+}
+
+.Atextsection h4{
+    color: #F07700;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.Atextsection p{
+    color: #7A7A7A;
+    font-size: 17px;
+    word-spacing: 2px;
+}
+
+.Atextsection hr{
+    width: 30%;
+
+}
+
+/* About Section end */
+
+/* Services Section start */
+
+.ServicesSection{
+    background-color: #fff;
+    padding-top: 15% ;
+}
+
+.scontainer{
+    width: 100%;
+    margin: auto;
+}
+
+.srow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+.Topheading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(36, 3, 3);
+    padding: 70px;
+    border: 10px solid;
+    border-radius: 25px;
+
+}
+
+.Topheading a {
+    text-decoration: none;
+    color: white;
+    background-color: #F07700;
+    padding: 16px 40px;
+    border-radius: 15px;
+    font-size: 16px;
+       
+}
+
+.Topheading a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.Servicestitle{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.Servicestitle h1{
+    padding: 20px;
+    color: #F07700;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Servicestitle p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.Servicestitle hr{
+    width: 10%;
+    margin: auto;
+}
+
+.Branding,.dm,.app,.customsolution,.ecommercesolution,.webdevelopment{
+    width: 33.33%;
+}
+
+.service-content{
+    background-color: #f6f9f9;
+    margin: 10px;
+    text-align: center;
+    word-spacing: 0.6rem;
+    /* height: 350px; */
+    
+}
+
+.service-content img{
+    padding: 35px;
+}
+
+.service-content h2{
+    padding: 10px;
+    color: #F07700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.service-content p{
+    padding: 10px;
+    color: darkgray;
+}
+
+.crow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

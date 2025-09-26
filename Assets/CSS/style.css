@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    background-color: white;
+
+}
+
+.row{
+    display: flex;
+    transform: translateY(10px);
+}
+
+/* Header style Start */
+.logo{
+    width: 20%;
+    /* background-color:#eaeaea; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar{
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+
+.navbar ul{
+    /* list-style-type: none; */
+    float: left;
+   
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar a:hover{
+    color: orangered;
+}
+
+.Call-now{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.Call-now a{
+    text-decoration: none;
+    background-color: rgb(243, 98, 46);
+    padding: 16px 50px;  
+    border-radius:10px 10px;
+    color: white;
+   display: inline-block;
+  
+}
+
+.Call-now a:hover{
+   
+    background-color: black;
+}
+
+
+/* Index Css Start from Here */
+/* Hero Section */
+
+.Herosections{
+    width: 100%;
+    height: 700px;
+    background-color: #f0770f;
+}
+.sections{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.headingsection{
+    width: 50%;
+    
+}
+.headingsection h1{
+    font-size: 66px;
+    color: white;
+}
+.headingsection h4{
+    font-size: 20px;
+    color: white;
+}
+
+.imagesection{
+    width: 50%;
+}
+
+.imagesection .image1{
+         border-radius: 20px;
+         position: relative;
+         left: 150px;
+}
+
+.imagesection .image2{
+   position: absolute;
+  top: 391px;
+  left: 943px;
+  border-radius: 30px;
+  border: 11px solid white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* ================= Why Work With Us Section ================= */
+.Hero-Section-2 {
+  padding-top: 300px;
+  background-color: #fff;
+  /* height: 90pc; */
+}
+.container-2 {
+  width: 90%;
+  margin: auto;
+}
+.row-2 {
+  display: flex;
+}
+.HeroImages {
+  width: 60%;
+}
+.HeroImages .image1 {
+  border-radius: 20px;
+  position: relative;
+}
+.HeroImages .image2 {
+  position: absolute;
+  top: 191px;
+  left: 243px;
+  border-radius: 30px;
+  border: 11px solid white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.HeroText-2 {
+  width: 40%;
+  padding-right: 100px;
+}
+.HeroText-2 h1 {
+  font-size: 50px;
+  color: #F07700;
+}
+.HeroText-2 p {
+  font-size: 17px;
+  color: darkgray;
+}
+.HeroText-2 h2 {
+  font-size: 30px;
+  color: #F07700;
+  padding-bottom: 40px;
+}
+
+/* ================= Services Section ================= */
+.Services-Section {
+  background-color: #fff;
+  padding: 50px 0;
+}
+.container-3 {
+  width: 90%;
+  margin: auto;
+}
+.row-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Top-heading {
+  width: 100%;
+  height: 140px;
+  background-color: rgb(36, 3, 3);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+border-radius: 18px;
+
+}
+.Top-heading h1 {
+  font-size: 24px;
+  /* border-radius: 18px; */
+}
+.Top-heading .button {
+  background-color: orangered;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  /* cursor: pointer; */
+}
+/* text Section */
+.text-Section{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  margin: auto;
+}
+
+.text-Section h1{
+color: orangered;
+}
+.text-Section p{
+  align-items: center;
+}
+.HeroImages-3 {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 30px;
+  /* border: 50px solid white; */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  margin-top: 30px;
+}
+.HeroImages-3 div {
+  text-align: center;
+}
+.HeroImages-3 img {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.HeroImages-3 h1 {
+  color: rgb(235, 93, 11);
+  margin-bottom: 10px;
+}
+
+
+
+.services-title{
+    padding: 50px;
+    text-align: center;
+}
+
+.services-title h2{
+    padding: 20px;
+    color: #f07700;
+    
+    font-weight: 50px;
+}
+
+.services-title p{
+    padding: 20px;
+   
+}
+
+.services-title hr{
+    width: 10%;
+    margin: auto;
+    
+}
+
+
+/* Service Section  */
+.service-content{
+    background-color: #f6f9f9;
+    margin: 10px;
+    text-align: center;
+    height: 350px;
+    word-spacing: 0.6rem;
+
+}
+
+.service-content img{
+    padding: 15px;
+}
+
+.service-content h2{
+    padding: 10px;
+    color: #f07700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.service-content p{
+    padding: 10px;
+     color: darkgrey;
+
+}
+
+.Branding{
+    width: 33.33%;
+}
+.dm {
+     width: 33.33%;
+   
+}
+
+.app{
+     width: 33.33%;
+   
+}
+
+.webdevelopment{
+    width: 33.33%;
+}
+
+.ecommercesolution{
+    width: 33.33%;
+}
+
+.customsolution{
+    width: 33.33%;
+}
